@@ -3,93 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício -1 - Cardápio Digital</title>
+    <title>Exercício 01</title>
     <style>
         body {
-            background-color: lightseagreen;
-            color: white;
-            font-family: sans-serif;
+            background-color: black; 
+            color: white; 
+            font-size:22px; 
+            font-family: Arial, Helvetica, sans-serif
         }
         h1 {
-            font-size: 40px;
-            color: wheat;
+            font-size: 50px; 
+            color:blueviolet;
         }
         h2 {
-            font-family: 30px;
-            font-weight: 600;
+            font-size: 30px; 
+            color:blueviolet;
         }
-        p {
-            color: wheat;
-            font-weight: 600;
-            font-style: italic;
+        #um {
+            color: crimson;
+            font-family: cursive;
         }
-        .opcao {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-weight: 600;
-            font-size: 17px;
-            color: gold;
-        }
-        #preco {
-            color: wheat;
+        .dois {
+            color:coral;
         }
     </style>
 </head>
 <body>
-    <h1>ALMOÇO - <strong id="preco">R$ 54,90</strong>🥗</h1>
-
-    <h2>ENTRADA</h2>
-
-    <p class="opcao">(ESCOLHA UMA DAS OPÇÕES)</p>
-
-    <hr>
-
-    <p>
-        MINI ESPESTO DE LEGUMES E MUSSARELA DE BÚFALA
-        BASEADOS COM MOLHO PESTO
-    </p>
+    <h1>Tipos estilos em CSS</h1>
     
-    <p>
-        PANCETA COM GOIABADA LEVEMENTE APIMENTADA
+    <h2>01 Estilo inline</h2>
+    
+    <p class="dois">
+        Permite a estilização dos elementos individualmente. <br>
+        Utilizamos o atributo style para criar a regra. <br>
+        Estiliza um componente por vez. <br>
+        Não tem reaproveitamento.
     </p>
 
-    <h2>PRATO PRINCIPAL</h2>
-    
-    <p class="opcao">(ESCOLHA UMA DAS OPÇÕES)</p>
-    
-    <hr>
-    
-    <h3>PARMEGIANA GRATINADA DE BERINJELA E 3 QUEIJOS 🍅VEG</h3>
-    
-    <p>
-        Fatias de berinjela empanadas com mix de farinha de cereais
-        temperada, imersas no molho de tomate artesanal acompanhada 
-        de arroz branco e batatas fritas.
+    <h2>02 Estilo incorporado</h2>
+
+    <p id="um">
+        Permite a estilização de mais de um elemento dentro da página.  <br>
+        É utilizado quando precisamos definir o estilo para vários elementos dentro de uma mesma página.  <br>
+        Utiliza a tag <style></style>. <br>
+        Permite reaproveitamento somente dentro da mesma página.
     </p>
-
-    <h3>CHORIZO FATIADO COM CHIMICHURRI</h3>
-
-    <p>
-        Acompanha maionese de batatas e batata palha da casa.
-    </p>
-
-    <h3>COSTELINHA BRASEADA COM REDUÇÃO AGRIDOCE</h3>
-
-    <p>
-        Acompanha arroz com brócolis e especiarias.
-    </p>
-
-    <h2>SOBREMESA</h2>
     
-    <p class="opcao">(ESCOLHA UMA DAS OPÇÕES)</p>
-    
-    <hr>
-    <p>CAFÉ COADO COM BRIGADEIRO DE CAFÉ DE COLHER 
-        E PETIT FOUR
-    </p>
+    <h2>03 Estilo externo</h2>
 
-    <p>
-        BANANA ASSADA RECHEADA DE DOCE DE LEITE COM 
-        SORVETE E CASTANHAS TRITURADAS
+    <p class="dois">
+        Utiliza um arquivo externo que é ligado a uma ou mais páginas HTML. <br>
+        O mais indicado e utilizado.  <br>
+        Criamos um arquivo externo com todas as regras para os elementos.  <br>
+        Utiliza a tag <link> para sua definição. <br>
+        Pode ser reaproveitado por diversas páginas. 
     </p>
 </body>
 </html>
