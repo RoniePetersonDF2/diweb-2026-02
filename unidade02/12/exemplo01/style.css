@@ -1,0 +1,28 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+h1, p {
+   margin: 20px auto;
+   padding: 20px;
+   background-color: lightblue;
+}
+h1 {
+   width: 60%;
+   text-align: center;
+   /* border-top-width: 2px;
+    border-top-style: dashed;
+    border-top-color: blueviolet; */
+
+   border-top: 5px dashed blueviolet;
+   border-right: 6px solid red;
+   border-left: 7px dotted green;
+   border-bottom: 10px solid black;
+}
+
+p {
+   width: 80%;
+   border: 4px solid tomato;
+}
