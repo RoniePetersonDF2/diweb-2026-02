@@ -1,27 +1,23 @@
-h1, p {
-    margin: 20px auto;
-    width: 80%;
-    color: whitesmoke;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1 {
-    height: 60px;
-    background-color: tomato;
-    text-align: center;
-    font-size: 50px;
+body {
+    background-color: gray;
+    font-family: cursive;
 }
-
-p {
-    background-color: orange;
-    font-size: 22px;
-}
-
-span {
-    background-color: chocolate;
-    color: chartreuse;
-}
-
-.block {
+label {
     display: block;
-    width: 180px;
-    background-color: darkcyan ;
+    font-weight: 600;
+}
+input {
+    padding: 5px 10px;
+}
+.content {
+    background-color: white;
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
 }

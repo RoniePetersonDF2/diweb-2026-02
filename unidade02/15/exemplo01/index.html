@@ -7,13 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Propriedade CSS display</h1>
+    <div class="content">
+        <h1>Trabalhando com formulários</h1>
 
-    <p>
-        As propriedades display são: <br>
-        <span>inline</span> <br>
-        <span class="block">inline-block</span>
-        <span>block</span>
-    </p>
+        <form action="" method="get">
+            <div>
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" 
+                    placeholder="Informe seu CPF." 
+                    required autofocus>
+            </div>
+
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" 
+                    size="50" placeholder="Informe seu nome." 
+                    required autofocus>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
