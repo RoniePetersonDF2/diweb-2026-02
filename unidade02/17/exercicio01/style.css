@@ -2,11 +2,11 @@ body {
     font-family: Helvetica, sans-serif;
     background-color: lightgray;
 }
-.main {
+.nav, .content {
     width: 80%;
     margin: 20px auto;
-    padding: 5px;
-    background-color: white;D
+    padding: 20px;
+    background-color: white;
 }
 a {
     color: tomato;
@@ -14,6 +14,19 @@ a {
     font-size: 20px;
     font-weight: 800;
     padding-right:20px;
+}
+p {
+    font-family: Cambria, serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+h1 {
+    font-size: 40px;
+    color: crimson;
+}
+h2 {
+    font-size: 30px;
+    color: tomato;
 }
 .active {
     background-color: tomato;
