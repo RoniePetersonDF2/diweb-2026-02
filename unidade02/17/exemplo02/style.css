@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: lightgray;
+}
+.header, .content {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+h1, h2 {
+    color: tomato;
+}
+a {
+    color: crimson;
+}
