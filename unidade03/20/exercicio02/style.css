@@ -6,36 +6,36 @@
 body {
     font-family: 'Segoe UI', Helvetica, sans-serif;
     font-size: 16px;
-    color: #505050;
-    background-image: url('./img/dogs.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 1200px;
-    width: 600px;
+    color: #505050;  
 }
 main {
     margin: 100px 0 20px 150px;
-    width: 100%;
 }
 .title {
     font-size: 80px;
-}
-.title-love {
-    color: #888383;
-    font-style: italic;
+    letter-spacing: 10px;
 }
 .subtitle {
     margin: 20px 0 50px 0;
     font-size: 30px;
-    word-spacing: 5px;
+    word-spacing: 15px;
+    text-transform: capitalize;
+    width: 70%;
 }
 .btn {
     display: inline-block;
     padding: 15px 30px;
     background-color: #5a5a5a;
     color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+    border: transparent;
     font-size: 20px;
     font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn:hover {
+    border: 3px solid #5a5a5a;
+    color: #5a5a5a;
+    background-color: transparent;
 }
