@@ -1,59 +1,76 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 body {
-  font-family: sans-serif;
-  background-color: #f0f0f0;
-}
-h1 {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 40px;
-}
-.card-container {
+  font-family: Arial, sans-serif;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 1rem 2rem;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  gap: 1.5rem; 
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  flex-grow: 1; 
+  padding: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.cards-container {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap; 
   justify-content: center;
-  margin-top: 60px;
 }
 .card {
-    width: 250px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 20px;  
-    border:1px solid #abaaaa;
+  background: #fff;
+  border-radius: 8px;
+  border: 2px solid #d3d3d3;
+  padding: 1.5rem;
+  flex: 1 1 250px; 
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 250px;
+  max-width: 300px;
+  text-align: center;
 }
-.card img {
-    width: 100%;
-    height: 200px;
+.card h3 {
+  margin-bottom: 0.5rem;
+  color: #333;
 }
-.card-content {
-    padding: 20px;
+footer {
+  background-color: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
 }
-.card-content h3 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-.card-content p {
-    font-size: 16px;
-    color: #8d8b8b;
-    line-height: 1.3;
-} 
-.card-btn {
-    display: block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    border-radius: 4px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-}
-.card-btn:hover {
-    background-color: transparent;
-    color: #333;
-    border: 1px solid #333;
-}  
