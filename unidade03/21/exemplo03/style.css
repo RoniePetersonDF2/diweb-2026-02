@@ -14,8 +14,16 @@ span {
 .box-03 {
     background-color: #5f9ea0;
 }
-.container-01 {
+.container-01,.container-02, .container-03, .container-04   {
     border: 1px solid #ff0000;
     display: flex;
-    justify-content: space-evenly;
+}
+.container-02 {
+    flex-direction: row-reverse;
+}
+.container-03 {
+    flex-direction: column;
+}
+.container-04 {
+    flex-direction: column-reverse;
 }
