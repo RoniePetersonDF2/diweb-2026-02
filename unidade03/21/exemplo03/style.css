@@ -1,0 +1,21 @@
+div {
+    color: #ffffff;
+    margin: 5px;
+}
+span {
+    color: #ff0000;
+}
+.box-01 {
+    background-color: #6495ed;
+}
+.box-02 {
+    background-color: #dc143c;
+}
+.box-03 {
+    background-color: #5f9ea0;
+}
+.container-01 {
+    border: 1px solid #ff0000;
+    display: flex;
+    justify-content: space-evenly;
+}
