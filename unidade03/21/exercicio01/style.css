@@ -21,6 +21,7 @@ header {
 }
 header h2 {
     font-size: 1.8rem;
+    display: flex;
 }
 header h2 span {
     color: #ef7889;
