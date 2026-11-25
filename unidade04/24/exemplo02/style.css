@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: #cccccc;
+    display: flex;
+    height: 100vh;
+}
+aside {
+    width: 250px;
+    background-color: darkolivegreen;
+}
+aside ul li {
+    list-style: none;
+    padding: 1rem;
+}
+aside ul li a {
+    color: #fff;
+    text-decoration: none;
+}
